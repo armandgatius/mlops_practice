@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Evaluate{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train with learning rate 1e-4",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/final_exercise/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "train",
+                "--lr",
+                "1e-4"
+            ]
+        },
+        {
+            "name": "Evaluate model",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/final_exercise/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "evaluate",
+                "model.pth"
+            ]
+        }
+    ]
+}",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/final_exercise/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "evaluate",
+                "model.pth"
+            ]
+        }
+    ]
+}
